@@ -1,0 +1,14 @@
+# Linux and MacOS: ~/.aws/config
+# Windows: %USERPROFILE%\.aws\config
+
+[default]
+region=us-east-2
+output=json
+
+[profile paywell-prod-acc]
+region=us-east-2
+output=json
+
+[profile paywell-dev-acc]
+region=us-east-2
+output=json
